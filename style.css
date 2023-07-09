@@ -1,0 +1,139 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+.btn{
+    padding: 20px;
+    border-radius:20px ;
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    margin-top: 5px;
+   
+}
+.logo{ 
+    height: 100px;
+    width: 100px;
+   
+
+}
+.menus ul li{ 
+    list-style:none ;
+}
+.menus ul li a{ 
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    
+    
+}
+.menus ul { 
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.menus ul li a:hover{ 
+color: brown;
+
+
+}
+.menu-container{ 
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, 0.692);
+    align-items: center;
+   
+
+}
+.banner{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8F8F8F;
+
+}
+.banner-heading{ 
+    color:mediumblue;
+    font-weight: 700;
+    font-size: 42px;
+}
+.banner-doc{ 
+    margin-right: 20px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.banner-img{
+    width: 600px;
+    
+    margin:30px ;
+   
+}
+.banner-para{ 
+    font-size: 35px;
+    color: aqua;
+}
+.sample-doc{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    margin-top: 20px;
+    text-align: center;
+    height: 80vh;
+}
+
+.sample-doc > p { 
+    font-size: 26px;
+ 
+}
+.title{ 
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 30px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 8px 45px gray ;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: #ffff;}
+    
+.icon{ 
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+}
+.service{ 
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 30px;
+    height: 80vh;
+    background-color: black;
+    margin-bottom: 30px;
+
+}
+.footer{ 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer-iteam{ 
+   
+    margin-right: 40px ;
+    padding: 20px;
+}
+.flogo{ 
+    width: 100px;
+    height: 100px;
+}
+.last-line{ 
+    margin: 20px;
+    text-align: center;
+}
