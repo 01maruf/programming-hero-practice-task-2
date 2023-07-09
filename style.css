@@ -129,11 +129,30 @@ color: brown;
     margin-right: 40px ;
     padding: 20px;
 }
-.flogo{ 
+.flogo{
     width: 100px;
     height: 100px;
+    box-shadow: 1px .5px 15px 5px rgb(194, 191, 191) ;
+    transition:transform step-start  ;
+    -webkit-transition:transform step-start  ;
+    -moz-transition:transform step-start  ;
+    -ms-transition:transform step-start  ;
+    -o-transition:transform step-start  ;
+}
+.flogo:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
 }
 .last-line{ 
     margin: 20px;
     text-align: center;
+}
+footer{ 
+    color:#ffff;
+    background-color: black;
 }
